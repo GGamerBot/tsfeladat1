@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Grade Manager</title>
+</head>
+<body>
+  <h1>Grade Manager</h1>
+
+  <div>
+    <input type="number" id="gradeInput" placeholder="Adj meg egy érdemjegyet (1-5)" min="1" max="5" />
+    <button id="addGradeBtn">Hozzáad</button>
+  </div>
+
+  <div>
+    <input type="number" id="searchInput" placeholder="Keresés érdemjegy alapján" min="1" max="5" />
+  </div>
+
+  <ul id="gradeList"></ul>
+
+  <script type="module" src="/src/main.ts"></script>
+</body>
+</html>
